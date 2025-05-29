@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    }
+
+
+html { 
+    background-image: url(DuckBackground.jpg);
+}
+
+
+
+nav p {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+border-style: solid; border-color: rgb(247, 213, 127); 
+
+text-decoration: none;
+display: inline-flex;}
+
+ 
+
+
+main { background-color: rgb(246, 246, 21);
+
+border-style: groove;}
+
+img {
+  border-radius: 50%;
+ display: flex; 
+justify-content: center;}
+
+section { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+border-style: solid;}
+ 
+
+
