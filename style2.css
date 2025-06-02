@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    
+    box-sizing: border-box;
+    }
+
+
+html { 
+    background-image: url(Images/Infamduckbackground.jpg);
+}
+
+main { background-color: rgb(226, 121, 51);
+
+border-style: groove;}
+
+
+nav p {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+border-style: solid; border-color: rgb(247, 213, 127); 
+
+text-decoration: none;
+display: inline-flex;}

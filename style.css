@@ -8,7 +8,7 @@
 
 
 html { 
-    background-image: url(DuckBackground.jpg);
+    background-image: url(Images/DuckBackground.jpg);
 }
 
 
@@ -27,10 +27,100 @@ main { background-color: rgb(246, 246, 21);
 
 border-style: groove;}
 
-img {
+
+
+
+#Paten {
+ border-radius: 0%;       
+  width: 400px;
+  height: auto;
+}
+
+
+
+.Patenone { display: flex;
+  flex-direction: row;        /* Text left, image right */
+  justify-content: space-between;
+  align-items: flex=end;
+  padding: 20px;
+  gap: 20px;
+  margin: auto;;}
+
+
+.Secondpara {
+  display: flex;
+  flex-direction: row;        /* Text left, image right */
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+  margin: auto;
+}
+
+.secpara {
+  flex: 1;
+  max-width: 600px;
+}
+
+#Patensec {
+  border-radius: 0%;         /* Circular image */
+  width: 400px;
+  height: auto;
+}
+
+/*
+.Secondpara {
+   display: flex;
+  flex-direction: row;       
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;  
+  margin: auto;        
+}
+
+.secpara {
+  flex: 1;
+  max-width: 600px;
+}
+
+#Patensec {
   border-radius: 50%;
- display: flex; 
-justify-content: center;}
+  width: 200px;
+  height: auto;
+}
+*/
+
+
+ /*#Patensec {
+  border-radius: 50%;
+
+
+  padding: 5px;
+  width: 400px;
+
+   display: flex; 
+justify-content: flex-end;
+
+  flex-direction: row;
+  align-items: flex-end; 
+  
+}
+
+/*.Patensec { display: flex; 
+justify-content: right; 
+
+  flex-direction: roq; /* Stack paragraphs vertically */
+ /* Align to the right */
+
+/*.Patenducktwo {
+  max-width: 600px;  /* Optional: control paragraph width */
+ /* text-align: left; /* Optional: align text itself to the right */
+  /*margin-bottom: 16px;
+
+  align-items: left;
+}
+
 
 section { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
