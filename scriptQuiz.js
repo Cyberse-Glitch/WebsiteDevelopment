@@ -1,23 +1,4 @@
-//function finishFunction() { alert ("very good job" )}
 
-
-// function answerChecking() { var score = 0; 
-
-   
-
-
-// quiz = document.forms.quiz.elements; 
-
-// question1 = Quiz.person.value;
-
-// if (answer1 == "true") {
-
-   // score = score + 1;
-//}
-
- // alert (" yeah looking good mate..." + score);
-
-// } 
 
 
 function answerChecking() {
