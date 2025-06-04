@@ -24,9 +24,22 @@ function answerChecking() {
 
     if (answer3 === "50") {
         score++;
-    }
 
+
+    }
+const answer6 = document.forms["Quiz"]["ride"].value;
+
+if (answer6 === "right") { score++;} 
+
+
+     const answer10 = document.forms["Quiz"]["lenerd"].value;
+
+if (answer10 === "right") { score++;} 
+
+
+  
 
     alert("Yeah, looking good mate... Your score: " + score);
+
 
 }
