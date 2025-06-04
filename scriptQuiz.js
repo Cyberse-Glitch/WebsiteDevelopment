@@ -27,9 +27,37 @@ function answerChecking() {
 
 
     }
+
+    
+ const answer4 = document.forms["Quiz"]["place"].value;
+
+    if (answer4 === "right") {
+        score++;
+    }
+
+    
+ const answer5 = document.forms["Quiz"]["number"].value;
+
+    if (answer5 === "5") {
+        score++;
+    }
 const answer6 = document.forms["Quiz"]["ride"].value;
 
 if (answer6 === "right") { score++;} 
+
+const answer7 = document.forms["Quiz"]["personthre"].value;
+
+if (answer7 === "right") { score++;} 
+
+
+const answer8 = document.forms["Quiz"]["evil"].value;
+
+if (answer8 === "right") { score++;} 
+
+
+const answer9 = document.forms["Quiz"]["song"].value;
+
+if (answer9 === "right") { score++;} 
 
 
      const answer10 = document.forms["Quiz"]["lenerd"].value;
