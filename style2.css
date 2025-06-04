@@ -11,10 +11,18 @@ html {
     background-image: url(Images/Infamduckbackground.jpg);
 }
 
-main { background-color: rgb(226, 121, 51);
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+  padding: 1rem;
+}
 
-border-style: groove;}
-
+nav {   display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;}
 
 nav p {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 
@@ -23,6 +31,18 @@ border-style: solid; border-color: rgb(247, 213, 127);
 text-decoration: none;
 display: inline-flex; }
 
+
+main { background-color: rgb(226, 121, 51);
+
+border-style: groove;}
+
+.slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 2rem;
+}
 
 
 @layer base, demo;
@@ -89,8 +109,8 @@ display: inline-flex; }
 				border-width: 0;
 		}
 	}
-	.circle-container {
-	
+	.circle-container { 
+
 	
 		&::before{
 			content: '';
@@ -273,6 +293,8 @@ display: inline-flex; }
 @layer base {
 	* {
 		box-sizing: border-box;
+
+        justify-content: center;
 	}
 	:root {
 		color-scheme: light dark;

@@ -9,6 +9,32 @@
 
     html { background-image: url(Images/QuizBackground.png);}
 
+    header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center; 
+  padding: 1rem;
+
+
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+
+nav p {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+border-style: solid; border-color: rgb(247, 213, 127); 
+
+text-decoration: none;
+display: inline-flex; }
+
+
    
     form { outline-color: black; outline-style: dashed;outline-color: rgb(114, 114, 240);}
 
