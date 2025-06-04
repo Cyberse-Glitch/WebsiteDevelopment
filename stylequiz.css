@@ -34,6 +34,11 @@ border-style: solid; border-color: rgb(247, 213, 127);
 text-decoration: none;
 display: inline-flex; }
 
+nav p a { color: black; text-decoration: none;}
+
+nav p a:hover {
+  text-decoration: underline; color: yellow;
+}
 
    
     form { outline-color: black; outline-style: dashed;outline-color: rgb(114, 114, 240);}

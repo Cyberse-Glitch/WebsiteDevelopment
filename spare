@@ -82,3 +82,10 @@
     <label for="slide4"></label>
   </div>
 </div>
+
+
+#lore, .lore {
+  text-align: center;   
+  margin: auto;         
+  max-width: 60ch;      
+}
